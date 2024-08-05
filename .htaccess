@@ -1,8 +1,5 @@
 <IfModule mod_rewrite.c>
-    <IfModule mod_negotiation.c>
-        Options -MultiViews -Indexes
-    </IfModule>
-
+    # Turn on the rewrite engine
     RewriteEngine On
 
     # Handle Authorization Header
@@ -14,8 +11,41 @@
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [L,R=301]
 
-    # Send Requests To Front Controller...
+    # Send Requests To Front Controller (index.html)...
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_negotiation.c>
+    Options -MultiViews -Indexes
+</IfModule>
+
+# Ensure the directory index is set correctly
+DirectoryIndex index.html
+
+# Allow access to the site from all users
+Order allow,deny
+Allow from all
+
+# Set proper permissions for files and directories
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|php|html|js|css)$">
+    Require all granted
+</FilesMatch>
+
+# Set custom error documents
+ErrorDocument 403 /error/403.html
+ErrorDocument 404 /error/404.html
+ErrorDocument 500 /error/500.html
+
+# Disable directory listing
+Options -Indexes
+
+# Enable symbolic links
+Options +FollowSymLinks
+
+# Disable mod_security if it's causing issues
+<IfModule mod_security.c>
+    SecFilterEngine Off
+    SecFilterScanPOST Off
 </IfModule>

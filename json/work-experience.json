@@ -1,0 +1,57 @@
+[
+  {
+    "period": "2021 — 2023",
+    "position": "Product Manager",
+    "company": "PT Boxity Central Indonesia",
+    "location": "Jakarta, Indonesia",
+    "responsibilities": [
+      "Develop high-quality business strategies and plans ensuring their alignment with short-term and long-term objectives",
+      "Lead and motivate subordinates to advance employee engagement and develop a high-performing managerial team",
+      "Oversee all operations and business activities to ensure they produce the desired results and are consistent with the overall strategy and mission",
+      "Make high-quality investing decisions to advance the business and increase profits",
+      "Enforce adherence to legal guidelines and in-house policies to maintain the company’s legality and business ethics",
+      "Review financial and non-financial reports to devise solutions or improvements",
+      "Build trust relations with key partners and stakeholders and act as a point of contact for important shareholders",
+      "Analyze problematic situations and occurrences and provide solutions to ensure company survival and growth",
+      "Maintain a deep knowledge of the markets and industry of the company"
+    ]
+  },
+  {
+    "period": "2018 — 2023",
+    "position": "Full Stack Web Developer & Project Manager",
+    "company": "PT Benua Solusi Teknologi",
+    "location": "Jakarta, Indonesia",
+    "responsibilities": [
+      "Design, implement, and develop client projects with provided initial descriptions and systems",
+      "Ensure smooth operation of web applications for client and internal projects",
+      "Maintain mail servers and handle security issues including hacker threats",
+      "Innovate and implement ideas to enhance office and client systems",
+      "Provide customer consultations on website or server development"
+    ]
+  },
+  {
+    "period": "2021 — 2022",
+    "position": "Frontend Developer",
+    "company": "PT Virtual Online Exchange (Duithape)",
+    "location": "Jakarta, Indonesia",
+    "responsibilities": [
+      "Implement user requirements by the agreed design",
+      "Perform automatic and manual testing to ensure proper functionality",
+      "Follow development and release procedures as per the 'Team Working Agreement'",
+      "Maintain and improve code quality, and write technical documentation",
+      "Collaborate with other developers and ensure code compatibility",
+      "Diagnose and fix software problems, and support the IT team"
+    ]
+  },
+  {
+    "period": "2020 — 2021",
+    "position": "Web Developer",
+    "company": "Digital Envision, Pty, Ltd",
+    "location": "Melbourne, Australia",
+    "responsibilities": [
+      "Developed features for Water Chemical Analysis and Drinkability Assessment",
+      "Provided Treatment Recommendations based on water data",
+      "Developed platform features for information and education on groundwater testing"
+    ]
+  }
+]
